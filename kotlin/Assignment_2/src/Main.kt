@@ -121,22 +121,22 @@
 //    }
 //}
 //
-//fun main() {
-//    print("Enter first angle: ")
-//    val a = readLine()!!.toInt()
-//
-//    print("Enter second angle: ")
-//    val b = readLine()!!.toInt()
-//
-//    print("Enter third angle: ")
-//    val c = readLine()!!.toInt()
-//
-//    if (a > 0 && b > 0 && c > 0 && (a + b + c == 180)) {
-//        println("They form a valid triangle")
-//    } else {
-//        println("They do not form a valid triangle")
-//    }
-//}
+fun main() {
+    print("Enter first angle: ")
+   val a = readLine()!!.toInt()
+
+    print("Enter second angle: ")
+    val b = readLine()!!.toInt()
+
+    print("Enter third angle: ")
+    val c = readLine()!!.toInt()
+
+    if (a > 0 && b > 0 && c > 0 && (a + b + c == 180)) {
+        println("They form a valid triangle")
+   } else {
+       println("They do not form a valid triangle")
+    }
+}
 //
 
 
